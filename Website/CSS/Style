@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Heebo", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: white;
+    z-index: 1;
+}
+h2{
+    font-size: 5rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.2rem;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 5rem;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50%,-50%) scale(4);
+}
+
+.home{
+    height: 100vh;
+}
+
+#Javascript{
+    width: 40%;
+    height: 40%;
+}
+
+#php {
+    height: 50vh;
+    background: rgb(21, 21, 21);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: top;
+    
+
+  
+    
+}
+
+.first-page{
+    height: 100vh;
+    background: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.first-page img{
+    height: 100%;
+}
+
+
+/* Animated page */
+.second-page{
+    height: 90vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#javascript {
+    width: 44%;
+    height: 73%;
+    object-fit: contain;
+   
+    
+}
+
+.javascript-page {
+    height: 50vh;
+    background: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.javascript-page h2{
+     position: relative;
+     text-align: center;
+    
+    }
+.javascript-page p{
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.csharp-page{
+    height: 50vh;
+    background: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    text-align: center;
+
+    
+}
+
+#csharp{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    justify-content: center;
+    margin-left: 10rem;
+    z-index: 0;
+
+}
+
+
+.csharp-page h2, p{
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    position: relative;
+}
+
+.third-page{
+    height: 50vh;
+    background: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+  
+}
+
+.fourth-page{
+    height: 50vh;
+    background: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    margin: none;
+}
+
+.intro-text {
+    width: 80%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.5s all ease-in-out;
+    text-align: center;
+    z-index: 2;
+}
+
+
+.intro-textmoogles {
+    width: 80%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.5s all ease-in-out;
+    text-align: center;
+    position: relative;
+}
+
+.intro-texts{
+    width: 80%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.5s all ease-in-out;
+    text-align: center;
+}
+
+.intro-appear{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+.Designwork{
+   
+        height: 90vh;
+        background: rgb(21, 21, 21);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    
+      
+}
+
+.designworkfirstpage{
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.designwork-firstpage p{
+    color: #000000;
+}
+
+
+.design-page{
+    height: 50vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.design-page h2{
+    position: relative;
+    text-align: center;
+   
+   }
+.design-page p{
+   flex-wrap: wrap;
+   text-align: center;
+   color:#000000;
+   
+}
+
+
+.designworkfirstpage p{
+    color: rgb(0, 0, 0);
+}
+
+.thrid-text {
+    width: 80%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.5s all ease-in-out;
+    text-align: center;
+}
+
+.intro-text3{
+    width: 80%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.5s all ease-in-out;
+    text-align: center;
+}
+.intro-appears3{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+.intro-appears{
+    opacity: 1;
+    transform:translateY(0px);
+}
+.name-form,
+.email-form {
+    padding: center;
+    text-align: center;
+    padding: 3rem;
+}
+.form-wrapper button{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 8rem;
+}
+.form-wrapper label {
+    margin: 0rem 3rem;
+}
+.form-head{
+    text-align: center;
+    padding: 3rem;
+}
+#contact {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(25, 25, 25);
+    color: white;
+}
+
+button{
+    padding: 1rem 2rem;
+    background: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out 0.2s;
+}
+button:hover{
+    background-color: #e0e0e0;
+}
+
+#progress-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8px;
+    background: linear-gradient(to right, #4e4e4e,#fcfcfc );
+    width: 0%;
+    z-index: 100;
+    transition: width 0.2s ease;
+}
+
+#moogle{
+    transform-origin: bottom;
+    z-index: 0;
+    transform: translateY(10%) rotateZ(-20deg) rotateX(-90deg);
+    animation: plant-enterance 1.5s ease-in-out 0.5s forwards,
+    plant-shake 2.5s infinite ease alternate-reverse 2s;
+    max-height: 80%;
+}
+#final-fantasyxiv{
+    object-fit: contain;
+    padding: 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+#future{
+    object-fit: contain;
+    padding: 3rem;
+    width: 50%;
+    height: 50%;
+}
+.interests-page{
+    height: 80vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+#interestsme{
+    width: 30%;
+    height: 90%;
+    object-fit: contain;
+    transform: translateY(10%) rotateZ(-20deg) rotateX(-90deg);
+    animation:
+    plant-shake 2.5s infinite ease alternate-reverse 2s;
+    max-height: 80%;
+    transform-origin: bottom;
+}
+.interests-page h2{
+    position: relative;
+    text-align: center;
+    color: #000000;
+   
+   }
+.interests-page p{
+   flex-wrap: wrap;
+   text-align: center;
+   color: #000000;
+   
+}
+
+.interests-page .interests-text{
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#adventuregame{
+    width: 40%;
+    height: 90%;
+    object-fit: contain;
+    transform: translateY(10%) rotateZ(-20deg) rotateX(-90deg);
+    animation:
+    plant-shake 3.5s infinite ease alternate-reverse 2s;
+    max-height: 80%;
+    transform-origin: bottom;
+    z-index: 0;
+}
+
+#animeapi {
+    width: 40%;
+    height: 110%;
+}
+#unity {
+    width: 40%;
+    height: 100%;
+    position: relative;
+
+}
+
+.future-page {
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thanks-page{
+    height: 80vh;
+    background: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+.final-text{
+    width: 80%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.5s all ease-in-out;
+    text-align: center;
+}
+.final-textappear{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+
+
+@keyframes plant-enterance {
+    from {
+    transform: translateY(5%) rotateZ(-10deg) rotateX(-80deg);
+    }
+    to {
+    transform: translateY(0%) rotateZ(0deg) rotateX(0deg);
+    }
+}
+@keyframes plant-shake {
+    from{
+        transform: rotateZ(-5deg);
+    }to {
+        transform: rotateZ(0deg);
+    }
+}
